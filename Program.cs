@@ -25,5 +25,18 @@ namespace Demoabstraction
         {
             return 2 * (l + b);
         }
+
     }
+    class  rectangle :Shape
+    {
+        public override int area(int l, int b)
+        {
+            return l*b;
+        }
+        public override int perimeter(int l, int b)
+        {
+            return 2 * (l + b);
+        }
+    }
+
 }
