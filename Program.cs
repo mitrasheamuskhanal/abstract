@@ -27,7 +27,7 @@ namespace Demoabstraction
         }
 
     }
-    class  rectangle :Shape
+    class  Rectangle :Shape
     {
         public override int area(int l, int b)
         {
@@ -38,7 +38,7 @@ namespace Demoabstraction
             return 2 *( l+b );
         }
     }
-    public class programnew
+    public class Programnew
     {
         public static void Main()
         {
@@ -50,7 +50,7 @@ namespace Demoabstraction
             Console.WriteLine(squareperimeter + "m");
 
 
-            Shape shape2 = new rectangle();
+            Shape shape2 = new Rectangle();
             int ReactangleArea = shape2.area(10, 10);
             Console.WriteLine(ReactangleArea + "square");
             int RectanglePerimeter = shape2.perimeter(10,10);
