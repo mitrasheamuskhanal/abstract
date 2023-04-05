@@ -38,5 +38,26 @@ namespace Demoabstraction
             return 2 *( l+b );
         }
     }
+    public class programnew
+    {
+        public static void Main()
+        {
+            Shape shape = new Square();
+            //calling methods
+            int SquareArea = shape.area(10, 10);
+            Console.WriteLine(SquareArea +"Square");
+            int squareperimeter =shape.perimeter(10, 10);
+            Console.WriteLine(squareperimeter + "m");
+
+
+            Shape shape2 = new rectangle();
+            int ReactangleArea = shape2.area(10, 10);
+            Console.WriteLine(ReactangleArea + "square");
+            int RectanglePerimeter = shape2.perimeter(10,10);
+            Console.WriteLine(RectanglePerimeter);
+            Console.ReadLine();
+
+        }
+    }
 
 }
